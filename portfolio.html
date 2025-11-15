@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio website</title>
+    <link rel="stylesheet" href="./myportfolio/style/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Welcome to my Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about"> 
+        <h2>About Me</h2>
+        <div class="about-container">
+        <div class="about-image">
+        <img src="myportfolio/images/WhatsApp Image 2025-11-08 at 08.33.25.jpeg" alt="">
+          </div>
+
+          <div class="about-text">
+        <h2>ABDUL RAHAMAN PELIGAH <span>(PELIGAROS)</span></h2>
+        <p>I am Mahamoud Abdul Rahaman Peligah is an aspiring web developer with a strong passion for creating modern, responsive, and user-friendly websites. He enjoys transforming ideas into functional digital experiences using HTML, CSS, and JavaScript, while continuously improving his skills in front-end and back-end technologies. Rahaman is particularly interested in web design, interactive interfaces, and optimizing websites for performance and accessibility. With a growing portfolio of personal and academic projects, he aims to build innovative web solutions that make online interactions more engaging and efficient.
+</p>
+          </div>
+          </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <table border="1">
+            <tr>
+                <th>Skill</th>
+                <th>Proficiency</th>
+            </tr>
+            <tr>
+                <td>HTML & CSS</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>python</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>javascript</td>
+                <td>beginner</td>
+            </tr>
+        </table>
+    </section>
+<section id="projects">
+  <h2>My Projects</h2>
+
+  <div class="projects-container">
+    <article>
+    <!-- Project 1 -->
+    <div class="project-card">
+      <div class="project-image">
+      <div class="project-content">
+        <h3>Drop Shipping Site</h3>
+        <img src="myportfolio/images/Screenshot 2025-11-08 171606.png" alt="">
+        <img src="myportfolio/images/Screenshot 2025-11-08 172736.png" alt="">
+        <img src="myportfolio/images/Screenshot 2025-11-08 172920.png" alt="">
+        <p>A modern eCommerce platform for global product sourcing and automated order fulfillment.</p>
+        <a href="project.html" class="btn">View Project</a>
+      </div>
+    </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <div class="project-image">
+      <div class="project-content">
+        <h3>Calculator App</h3>
+        <img src="myportfolio/images/Screenshot 2025-11-08 173632.png" alt="">
+        <p>A responsive and functional calculator built with clean UI and JavaScript logic.</p>
+        <a href="project.html" class="btn">View Project</a>
+      </div>
+    </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <div class="project-image">
+      <div class="project-content">
+        <h3>Calendar App</h3>
+        <img src="myportfolio/images/Screenshot 2025-11-08 174243.png" alt="">
+        <p>A dynamic calendar app with date tracking and event scheduling features.</p>
+        <a href="project.html" class="btn">View Project</a>
+      </div>
+    </div>
+    </div>
+    <!-- Project 4 -->
+    <div class="project-card">
+      <div class="project-image">
+      <div class="project-content">
+        <h3>Slurploops Bakery Website</h3>
+        <img src="myportfolio/images/Screenshot 2025-11-10 113926.png" alt="">
+        <img src="myportfolio/images/Screenshot 2025-11-10 114043.png" alt="">
+        <img src="myportfolio/images/Screenshot 2025-11-10 114305.png" alt="">
+        <img src="myportfolio/images/Screenshot 2025-11-10 114143.png" alt="">
+        <p>A visually engaging website for a bakery brand featuring responsive design and image sliders.</p>
+        <a href="project.html" class="btn">View Project</a>
+      </div>
+    </div>
+    </div>
+    <!-- Project 5 -->
+    <div class="project-card">
+      <div class="project-image">
+      <div class="project-content">
+        <h3>Password Generator</h3>
+        <img src="myportfolio/images/Screenshot 2025-11-08 172111.png" alt="">
+        <p>A Python app that generates secure random passwords with adjustable complexity.</p>
+        <a href="project.html" class="btn">View Project</a>
+      </div>
+    </div>
+    </div>
+    </article>
+  </div>
+</section>
+ 
+
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <ol>
+            <li>Reading</li>
+            <li>Coding</li>
+            <li>Watching Movies</li>
+            <li>Playing Games</li>
+        </ol>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="contact" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label> 
+            <input type="email" id="email" name="email">
+
+            <label for="message">message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <section id="socials">
+        <p>2025 My Portfolio website. All rights reserved.</p>
+      <p class="socials">
+        <a href="#">Facebook</a> | <a href="#">X</a> | <a href="#">LinkedIn</a> | <a href="#">Whatsapp</a> | <a href="peligahrahaman123@gmail.com">Email Me</a>
+      </p>
+    </section>
+
+<button id="scrollTopBtn" class="scroll-btn up">↑</button>
+<button id="scrollBottomBtn" class="scroll-btn down">↓</button>
+
+<script src="./myportfolio/scripts/portfolio.js"></script>
+
+</body>
+</html>
